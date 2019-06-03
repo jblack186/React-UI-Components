@@ -1,18 +1,18 @@
-import React from 'react';
-import './Button.css';
+// import React from 'react';
+// import './Button.css';
 
-function NumberButton(props) {
-    return (
+// function NumberButton(props) {
+//     return (
       
-        <div>
-          <button>{props.text.number}</button>
+//         <div>
+//           <button>{props.text.number}</button>
          
          
-        </div>
+//         </div>
 
       
        
-    );
-};
+//     );
+// };
 
-export default NumberButton;
+// export default NumberButton;

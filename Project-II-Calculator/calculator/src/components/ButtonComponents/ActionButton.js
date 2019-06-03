@@ -1,27 +1,56 @@
 import React from 'react';
 import './Button.css';
-import Actions from "./Actions";
 
 
 
-    const ButtonZero = {
-        action: 'CLEAR'
-    };
+//     const ButtonZero = {
+//         action: 'CLEAR'
+//     };
 
-    const ButtonClear = {
+//     const ButtonDiv = {
+//         action: '/'
+//     };
 
-        action: 0
-    };
 
+   
+
+
+    
+
+// function ActionButton() {
+//     return (
+//         <div>
+//     <div className='action'>
+//         <Actions actionButton={ButtonZero} />
+//         <Actions actionButton={ButtonDiv} />
+
+//         </div>
+        
+//     </div>
+//     );
+// }
+
+// function Actions(props) {
+//     return (
+//         <div>
+//         <div>
+//             <button>{props.actionButton.action}</button>
+//         </div>
+        
+//         </div>
+//     );
+// };
 
 function ActionButton() {
     return (
-    <div>
-        <Actions actionButton={ButtonZero} />
-        <Actions actionButton={ButtonClear} />
+    <div className="actionButton">
+    <div className="a">
+        <button className="actionButtonClear">CLEAR</button>
+        <button className="actionButtonDiv">/</button>
+       </div> 
     </div>
     );
-}
+};
 
 
 export default ActionButton; 
